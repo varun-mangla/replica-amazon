@@ -4,7 +4,6 @@
     padding: 0px;
     border: border-box;
 }
-
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -81,12 +80,10 @@
 .nav-search:hover{
     border: 2px solid #febd68;
 }
-
 /** Box 4**/
 span{
     font: size 0.7rem;
 }
-
 .nav-second{
     font-size: 0.85rem;
     font-weight: 700;
@@ -98,4 +95,28 @@ span{
 .nav-cart {
     font-size: 0.8rem;
     font-weight: 700;
+}
+
+/**Panel- Styling**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-ops{
+width: 70%;
+font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-weight: 700;
+    font-size: 0.9rem;
 }
