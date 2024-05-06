@@ -17,7 +17,7 @@
     width: 100px;
 }
 .logo{
-    background-image: url("Resources/amazon_logo.png");
+    background-image: url("resources\amazon_logo.png");
     height: 50px;
     width: 100%;
     background-size: cover;
@@ -96,7 +96,6 @@ span{
     font-size: 0.8rem;
     font-weight: 700;
 }
-
 /**Panel- Styling**/
 .panel{
     height: 40px;
@@ -110,13 +109,16 @@ span{
     display: inline;
     margin-left: 20px;
 }
-
 .panel-ops{
 width: 70%;
 font-size: 0.85rem;
 }
-
 .panel-deals{
     font-weight: 700;
     font-size: 0.9rem;
+}
+.hero-section{
+    height: 600px;
+    width: 70vh;
+    background-image: url("resources\hero_image.jpg");
 }
